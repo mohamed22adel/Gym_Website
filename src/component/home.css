@@ -1,0 +1,518 @@
+.home_photo{
+    width: 100%;
+    z-index: -1;
+}
+.home_photo img{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.home_paragraph{
+    margin-top: -555px;
+    margin-left: 190px;
+    color: white;
+}
+.home_paragraph h1{
+    font-size: 50px;
+    width: 500px;
+}
+
+.home_paragraph p{
+    margin: 15px auto;
+    font-size: 20px;
+}
+.home_paragraph_p2{
+    position: relative;
+    max-width: 400px;
+    left: -65px;
+    transform: translateX(-100%);
+}
+.animated-button {
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #ff0336;
+    box-shadow: 0 0 0 2px #ff0336;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: #ff0336;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+    right: 16px;
+}
+
+.animated-button .arr-2 {
+    left: -25%;
+}
+
+.animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #ff0336;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: white;
+    border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+    right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+    left: 16px;
+}
+
+.animated-button:hover .text {
+    transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+    fill: white;
+}
+
+.animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px #ff0336;
+}
+
+.animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+}
+.home_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+.home_about_photo{
+    margin-right: 0;
+}
+.home_about_photo .runner_background{
+    width: 300px;
+    margin-left: 30px;
+    z-index: -1;
+}
+.home_about_photo .home_runner_man{
+    width: 1000px;
+    margin-left: -600px;
+} 
+.home_about_paragraph{
+    margin-left: -200px;
+    z-index: -1;
+}
+.home_about_paragraph_p1{
+    font-size: 20px;
+}
+.home_about_paragraph h1{
+    max-width: 500px;
+    font-size: 50px;
+}
+.home_about_paragraph_p2{
+    max-width: 350px;
+}
+.home_about_Equipment img ,.home_about_Fitness img{
+    width: 40px;
+    margin-right: 20px;
+}
+.home_about_Equipment , .home_about_Fitness{
+    display: flex;
+    margin: 20px auto;
+}
+
+
+.home_class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_class_paragraph_p1{
+    font-size: 20px;
+}
+.home_class_paragraph h1{
+    max-width: 300px;
+}
+.home_class_paragraph_p2{
+    max-width: 300px;
+}
+
+
+.carousel-inner img{
+    width: 400px;
+    height: 450px;
+    filter: grayscale(100%);
+    
+}
+.carousel-inner img:hover{
+    filter: grayscale(0%);
+}
+
+
+.home_choose_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:200px;
+}
+
+.home_choose_us_photo .male-boxer-posing{
+    width: 400px;
+    margin: 10px 50px;
+    border-radius: 20px;
+} 
+.home_choose_us_paragraph{
+margin:10px 50px;
+}
+.home_choose_us_paragraph_p1{
+    font-size: 20px;
+}
+.home_choose_us_paragraph h1{
+    max-width: 500px;
+    font-size: 50px;
+}
+.home_choose_us_paragraph_p2{
+    max-width: 350px;
+}
+.home_choose_us_Equipment_and_Balance{
+    display: flex;
+}
+.home_choose_us_Equipment_and_Balance p{
+    max-width: 190px;
+}
+.home_choose_us_Equipment img ,.home_choose_us_Balance img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.home_choose_us_Equipment , .home_choose_us_Balance{
+    margin: 20px;
+}
+
+.home_trainers{
+    background-color: #000;
+    width: 100%;
+    height: 165vh;
+    margin-top: 200px;
+}
+
+.home_trainers .home_trainers_paragraph{
+    position: relative;
+    color: white; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    text-align: center;
+    top: 100px;
+}
+.home_trainers_paragraph_p1{
+    font-size: 20px;
+}
+
+.top_yoga_trainers .yoga_trianer{
+    width: 520.55px;
+    margin-left: -85px;
+}
+.trainers_social_media{
+    display: flex;
+}
+.trainers_social_media li{
+    margin-right:15px ;
+    z-index: 1;
+}
+.trainers_social_media li:hover{
+    color: #ff0336;
+}
+.trainer_background{
+    border-radius: 200px;
+    width: 650px;
+    z-index: -1;
+}
+.top_yoga_trainers_div{
+    margin: 20px;
+}
+.top_yoga_trainers_div .yoga_trainer2{
+    width: 320px;
+    height: 347px;
+    margin-left: 50px;
+}
+.top_yoga_trainers .top_yoga_trainers_div{
+    display: flex;
+    align-items: center;
+    padding: auto 20px;
+    margin-top: -347px;
+    margin-left: 90px;
+}
+.top_bodybuilder_trainers_div{
+    display: flex;
+    align-items: center;
+    padding: auto 20px;
+    margin-top: -300px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.bodybuilder_trainer-Photoroom{
+    width: 450px;
+}
+.bodybuilder_trainer2{
+    width: 243px;
+    margin-left: 50px;
+}
+
+.home_trainers_top_trainers{
+    display: flex;
+    margin-top: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home_schedule{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home_schedule .frist_p{
+    font-size: 20px;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: -1;
+    }
+
+.schedule-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    }
+
+.day {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.time, .class {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.class:hover{
+    color: #ff0336;
+}
+
+.schedule-item:nth-child(odd) {
+    background-color: #e0f7fa;
+}
+
+.schedule-item:nth-child(even) {
+    background-color:#f1f8e9;
+}
+
+
+.home_Pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #000;
+    width: 100%;
+
+}
+
+.home_Pricing .home_Pricing_div{
+    color: #fff;
+    margin-right: 40px;
+}
+.home_Pricing_div .frist_p{
+    font-size: 20px;
+}
+.home_Pricing_div span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home_Pricing_div h1{
+    max-width: 300px;
+}
+.Pricing_card{
+    margin: 20px;
+    background-color: #fff;
+    width: 320px;
+    height: 700px;
+}
+.div_container_in_slider{
+    display: flex;
+}
+.Pricing_card1{
+    width: 320px;
+    height: 220px;
+    z-index: -1;
+}
+.home_Pricing_div2{
+    width:700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-Left:40px;
+}
+.home_Pricing_slider_p1{
+    color: #fff;
+    position:relative;
+    top:-200px;
+    margin-left:250px;
+    font-Size:20px;
+    padding:5px;
+    background-Color:#ff0336;
+    border-radius:10px;
+}
+.Pricing_card2_p1{
+    color:#fff;
+    position:relative;
+    top:-200px;
+    margin-Left:215px;
+    font-Size:20px;
+    padding: 5px;
+    background-Color:#ff0336;
+    border-radius:10px
+}
+.home_Pricing_slider_div{
+    display:flex;
+    align-Items:center;
+    margin-Left:10px;
+}
+.home_Pricing_slider_p2{
+    font-Size:20px;
+    padding:"10px";
+    margin-top:8px;
+}
+
+
+
+
+.home_blog_paragraph{
+    text-align: center;
+    margin-top: 150px;
+}
+.home_blog_paragraph_p1{
+    font-size: 20px;
+}
+.home_blog_paragraph_p2{
+    position: relative;
+    max-width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yoga_blog{
+    width: 350px;
+    height: 450px;
+    z-index: -1;
+}
+
+.home_blog_container_div2{
+    display: flex;
+    align-items: center;
+}
+.home_blog_container_div2 img{
+    width: 30px;
+    height: 40px;
+}
+.home_blog_container_div_p2{
+    margin: auto 2px;
+}
+.home_blog_container_div_p2:hover{
+    color: #ff0336;
+}
+.home_blog_container_div_p3{
+    margin: auto 0;
+}
+.home_blog_container_div1{
+    margin-left: 100px;
+}
+.home_blog_container_div1 h3 , .home_blog_container_div2_2 h3 , .home_blog_container_div3 h3{
+    max-width: 300px;
+}
+.home_blog_container_div2_2{
+    margin:auto 80px;
+}
+.home_blog_container_div3{
+    margin-left: 50px;
+}
+.home_blog_container_div1 h3:hover , .home_blog_container_div2_2 h3:hover , .home_blog_container_div3 h3:hover{
+    color: #ff0336;
+}
+.home_blog_container_paragraph{
+    margin-top: -180px;
+    margin-left: 30px;
+    color: #fff;
+}
+.home_blog_container_div_p1{
+    display: inline-flex;
+    padding: 5px 10px;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 20px;
+}
+.home_blog_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+
+.home_contact{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.home_contact_photo{
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+}
+.home_contact_div{
+    margin-top: -300px;
+    text-align: center;
+    color: #fff;
+}
+
+

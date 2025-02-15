@@ -1,0 +1,62 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar_container{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    z-index: 10;
+}
+.navbar_container div{
+    margin: 20px auto;
+}
+.App_name{
+    margin: auto;
+    font-size: 30px;
+    color: white;
+}
+.nav_ul{
+margin: auto;
+}
+.nav_ul ul{
+    display: flex;
+    margin: auto;
+}
+
+.nav_ul ul li{
+    margin: auto 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav_ul a {
+    text-decoration: none;
+}
+.nav_ul ul li:hover{
+    color: #ff0336;
+}
+.nav_ul ul a.active{
+    color: #ff0336;
+}
+.nav_register_button{
+    margin: auto;
+}
+.nav_register_button button{
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ff0336;
+    background-color: #ff0336;
+    transition: 0.5s;
+}
+.nav_register_button button:hover{
+letter-spacing: 0.25px;
+}
+

@@ -1,0 +1,31 @@
+.background_image{
+    width: 100%;
+    height: 70vh;
+}
+.schedule_container_days{
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.schedule_container_days div{
+    margin: auto 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ff0336;
+}
+.schedule_container_days a{
+    text-decoration: none;
+    color: black;
+}
+.schedule_container_days a.active{
+    background-color: #ff0336;
+    border: 1px solid #ff0336;
+    color: #fff;
+    border-radius: 20px;
+}
+.schedule_container_days div:hover{
+    color: #fff;
+    background-color: #ff0336;
+    border: 1px solid #ff0336;
+}

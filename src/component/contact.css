@@ -1,0 +1,321 @@
+
+.contact_container{
+    width: 100%;
+}
+.contact_container img{
+    width: 100%;
+    height: 70vh;
+}
+.contact_background_div{
+    color: #fff;
+    margin-top: -250px;
+    margin-left: 200px;
+}
+.contact_background_div h1{
+    font-size: 50px;
+}
+.contact_background_div_link{
+    display: flex;
+}
+.contact_background_div_link a{
+    text-decoration: none;
+    color: #fff;
+    margin: auto 2px;
+}
+.contact_background_div_link p{
+    font-size: 20px;
+}
+.contact_background_div_link p:hover{
+    color: #ff0336;
+}
+
+.contact_body{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_body_paragraph {
+    width: 500px;
+}
+
+.contact_body_paragraph_div1 , .contact_body_paragraph_div2{
+    display: flex;
+    margin-top: 30px;
+}
+
+.fa-minus{
+    color: #ff0336;
+    font-size: 30px;
+}
+
+.contact_body_paragraph_div1 div , .contact_body_paragraph_div2 div{
+    margin-right: 50px;
+}
+.contact_body_paragraph_div2_2{
+    margin-left: 55px;
+}
+
+.contact_body_paragraph_div2_btn{
+    display: flex;
+}
+.contact_body_paragraph_div2_btn button{
+    margin-right: 20px;
+}
+
+.Btn1 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+    
+    .svgContainer1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG1 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #1877f2;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+    }
+    
+    .Btn1:hover .BG1 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    }
+    
+    .Btn1:hover .svgContainer1 {
+    border: 1px solid rgba(230, 230, 230, 0.466);
+    background-color: rgba(204, 204, 204, 0.466);
+    backdrop-filter: blur(4px);
+    }
+    
+    
+.Btn2 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+    
+    .svgContainer2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG2 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+    }
+    
+    .Btn2:hover .BG2 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    }
+    
+    .Btn2:hover .svgContainer2 {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+    }
+    
+    
+.Btn3 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+    
+    .svgContainer3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG3 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #e60023;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+    }
+    
+    .Btn3:hover .BG3 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    }
+    
+    .Btn3:hover .svgContainer3 {
+    background-color: rgba(226, 226, 226, 0.466);
+    backdrop-filter: blur(4px);
+    }
+
+.Btn4 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+    
+    .svgContainer4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG4 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ff0000;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+    }
+    
+    .Btn4:hover .BG4 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    }
+    
+    .Btn4:hover .svgContainer4 {
+    border: 1px solid rgba(255, 110, 110, 0.466);
+    background-color: rgba(219, 219, 219, 0.466);
+    backdrop-filter: blur(4px);
+    }
+    
+
+    .contact_body_form{
+        width: 600px;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+    }
+
+.contact_body_form div{
+    margin: 20px 50px;
+}
+
+.contact_body_form input{
+    display: block;
+    margin: 20px 50px;
+    padding: 10px; 
+    width: 400px;
+    height: 60px;
+    border: 1px solid rgba(169, 169, 169, 0.649);
+}
+
+form .Comment{
+    height:150px ;
+    resize: none;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+.Comment::placeholder{
+    position: relative;
+    bottom: 50px;
+}
+
+.contact_body_form_btn{
+    padding: 20px 50px;
+    margin: 20px 50px;
+    background-color: #ff0336;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ff0336;
+    transition: 0.5s;
+}
+.contact_body_form_btn:hover{
+    letter-spacing: 1px;
+    color: #ff0336;
+    background-color: transparent;
+}
