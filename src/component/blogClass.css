@@ -1,0 +1,35 @@
+.class_div img{
+    width: 350px;
+    height: 400px;
+    z-index: -1;
+}
+.class_p_div{
+    display: flex;
+}
+.class_p_div p{
+    margin-right: 15px;
+}
+.fa-user , .fa-clock{
+    color: #fff;
+    margin-right: 5px ;
+}
+.class_div_p{
+    max-width: 250px;
+}
+.class_paragraph{
+    color: #fff;
+    margin-top: -200px;
+    margin-left: 30px;
+}
+
+.class_div_container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3 , 400px);
+    gap: 10px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.class_div{
+    margin: 50px auto; 
+}

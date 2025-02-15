@@ -1,0 +1,32 @@
+.table_container{
+    margin-top:50px ;
+}
+.table_container_div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f8f8;
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.table_container_div div{
+    margin: auto 30px;
+}
+.table_container_div button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    color: #fff;
+}
+.table_container_div button:hover{
+    color: #ff0000;
+    background-color: transparent;
+}
